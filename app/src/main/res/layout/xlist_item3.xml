@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/three_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="19dp"
+        android:text="jvnfvkdf"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three_title">
+
+        <ImageView
+            android:id="@+id/three_iv1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@mipmap/default_image"/>
+
+        <ImageView
+            android:id="@+id/three_iv2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@mipmap/default_image"/>
+
+        <ImageView
+            android:id="@+id/three_iv3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@mipmap/default_image"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/three_n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginLeft="10dp"
+        android:text="hjdjd"/>
+
+    <ImageView
+        android:id="@+id/pop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linear"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/add_textpage_pressed_night"/>
+
+
+</RelativeLayout>

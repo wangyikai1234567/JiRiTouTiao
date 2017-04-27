@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:padding="5dp"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sm_iv"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/sm_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="xddsdsd"
+        android:textSize="15sp"/>
+
+</LinearLayout>

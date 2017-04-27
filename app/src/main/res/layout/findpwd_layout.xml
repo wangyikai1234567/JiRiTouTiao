@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/pwd_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@mipmap/btn_back_detail_pressed_night"/>
+
+        <TextView
+            android:id="@+id/pwd_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pwd_back"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="找回密码"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/subscribe_item_text_color_pressed"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/iv_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+86"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:text="17600344115"
+            android:id="@+id/pwd_shurushoujihao"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/iv_default2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/close_discover_pressed"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/subscribe_item_text_color_pressed"
+        ></TextView>
+
+    <Button
+        android:id="@+id/pwd_nextbutton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="下一步"
+        android:textColor="@color/red"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

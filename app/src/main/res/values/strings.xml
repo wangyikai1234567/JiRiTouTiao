@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JiRiTouTiao</string>
+    <string name="title_name">今日头条</string>
+    <string name="slid_text">好友动态</string>
+    <string name="login_text">登陆今日头条</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="zc_zh">注册账号</string>
+    <string name="wjmm">忘记密码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_more_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/login_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/btn_back_detail_pressed_night"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="登录今日头条"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@mipmap/pic_login"/>
+
+    <Button
+        android:id="@+id/tel_login"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/red"
+        android:text="手机号登录"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:text="注册新账号"
+        android:textColor="@color/red"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="其他方式登录"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="70dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_qq_login_normal"/>
+
+        />
+
+        <ImageView
+            android:id="@+id/wb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/ic_weibo_login_normal"/>
+
+        />
+
+        <ImageView
+            android:id="@+id/tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/ic_tencent_login_pressed"/>
+
+        <ImageView
+            android:id="@+id/rr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/ic_renren_login_normal_night"/>
+    </LinearLayout>
+</LinearLayout>

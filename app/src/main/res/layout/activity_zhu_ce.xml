@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/zhuce_im_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/btn_back_detail_pressed_night"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="手机号注册"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="登录"
+        android:textSize="20dp"
+        android:id="@+id/textView6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:background="#C0C0C0"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="+86"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/zhuce_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号"/>
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="16dp"
+        android:layout_toStartOf="@+id/textView4"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="同意《"/>
+
+        <TextView
+            android:id="@+id/xy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="今日头条用户协议"
+            android:textColor="#008080"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="》"/>
+    </LinearLayout>
+
+    <Button
+    android:id="@+id/zc_next"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="200dp"
+    android:text="下一步"
+    android:textSize="25sp"/>
+
+</RelativeLayout>

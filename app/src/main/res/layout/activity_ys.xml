@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ys"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="jinritoutiao.bawei.com.jiritoutiao.YS">
+
+    <EditText
+        android:id="@+id/ys_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"/>
+
+    <EditText
+        android:id="@+id/ys_psd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"/>
+
+    <EditText
+        android:id="@+id/ys_psd_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请确认密码"/>
+ <EditText
+        android:id="@+id/ys_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入邮箱"/>
+
+    <Button
+        android:id="@+id/ys_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+
+</LinearLayout>

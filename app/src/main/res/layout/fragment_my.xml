@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="horizontal">
+
+    <xlistview.bawei.com.xlistviewlibrary.XListView
+        android:id="@+id/xlist"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:divider="#00000000"
+        >
+    </xlistview.bawei.com.xlistviewlibrary.XListView>
+
+
+</LinearLayout>

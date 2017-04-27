@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/left_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/btn_back_detail_pressed_night"/>
+
+    <TextView
+        android:id="@+id/zc_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="手机号注册"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/zc_phone"
+        android:background="#000"></TextView>
+
+    <TextView
+        android:id="@+id/agin_send"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/edit_verify"
+        android:layout_below="@+id/ll"
+        android:gravity="center_vertical"
+        android:text="重新发送"
+        android:textColor="#f00"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zc_phone"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="已向"
+            />
+
+        <TextView
+            android:id="@+id/textnum"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:text="18865276797"
+            />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+
+            android:text="发送验证码"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_verify"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="请输入验证码"
+        android:layout_below="@+id/ll"
+        android:layout_alignStart="@+id/set_password"/>
+
+    <Button
+        android:id="@+id/zc_login"
+        android:text="登录"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/zc_phone"/>
+
+    <EditText
+        android:id="@+id/set_password"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="请设置密码（6-20位英文或数字）"
+        android:layout_below="@+id/agin_send"
+        android:layout_toEndOf="@+id/left_back"/>
+
+</RelativeLayout>
